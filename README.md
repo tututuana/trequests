@@ -10,7 +10,7 @@ resp = session.get("https://api.ipify.org/?format=json")
 print(resp.json())
 ```
 
-Popular modules such as [requests](https://github.com/psf/requests) don't perform well in multi-threaded scenarios, xrequests aims to be the solution to this problem.
+Popular modules such as [requests](https://github.com/psf/requests) don't perform well in multi-threaded scenarios, trequests aims to be the solution to this problem.
 
 ![Graph](https://github.com/tututuana/trequests/blob/main/graph.png)
 
