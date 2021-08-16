@@ -222,9 +222,10 @@ class Session:
         if not resp:
             raise EmptyResponse("Empty response from server")
 
-        while not b"\r\n\r\n" in resp:
-            resp += conn.recv(max_chunk_size)
+        #while not b"\r\n\r\n" in resp:
+        #    resp += conn.recv(max_chunk_size)
 
+        resp = resp.replace(b"\n\n", b"\r\n\r\n", 1)
         resp, data = resp.split(b"\r\n\r\n", 1)
         resp = resp.decode()
         status, raw_headers = resp.split("\r\n", 1)
