@@ -1,3 +1,4 @@
+You are free to use it in any project
 # trequests
 A lazy, minimalist, but fast HTTP request module for Python 3.4+
 
