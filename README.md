@@ -14,6 +14,7 @@ print(resp.json())
 Popular modules such as [requests](https://github.com/psf/requests) don't perform well in multi-threaded scenarios, trequests aims to be the solution to this problem.
 
 ![Graph](https://github.com/tututuana/trequests/blob/main/graph.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftututuana%2Ftrequests.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftututuana%2Ftrequests?ref=badge_shield)
 
 Some quirks:
 - `Session` instances are NOT thread-safe
@@ -30,3 +31,7 @@ Supports:
 ```bash
 pip install -U git+https://github.com/tututuana/trequests.git
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftututuana%2Ftrequests.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftututuana%2Ftrequests?ref=badge_large)
